@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0feb0fe3ca387448cff6947dd58ed6, type: 3}
+  m_Name: Combat_Rooms
+  m_EditorClassIdentifier: 
+  RoomTemplates:
+  - {fileID: 8417155223268660931, guid: fa3354d14c5c58148b9b83c65e3f8484, type: 3}
+  - {fileID: 5864273738519184852, guid: 1cebc947ef7241a47b0bce29c61b3a8c, type: 3}
+  - {fileID: 1254022935119818420, guid: 10c7951a430b8d74bbf71f6372520e43, type: 3}
+  - {fileID: 5488750802088034717, guid: d26d757fbc757554088474a11b65e776, type: 3}
+  - {fileID: 2683149957137022790, guid: eccc7832f6d619d45b8e102d5e9fc165, type: 3}
+  - {fileID: 8235527079293400277, guid: a95818a3797e38a408988ca46e5c4588, type: 3}
+  - {fileID: 4694846252502262752, guid: 2f7dbf8b1f16b7a42be0f27d309d1d89, type: 3}

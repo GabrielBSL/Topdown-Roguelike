@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7195516011183114845}
   - component: {fileID: 7195516011183114842}
   - component: {fileID: 4538677448741616372}
+  - component: {fileID: -722350760516144839}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Enemy
@@ -170,3 +171,19 @@ MonoBehaviour:
   attackDelay: 3
   minimalDistanceToPlayer: 2
   attackSpeed: 4
+--- !u!114 &-722350760516144839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7195516011183114832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f53828b4d6b134b8c58b4e5a406f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropChance: 0.5
+  items:
+  - dropObj: {fileID: 2177941456136481810, guid: cccda15e27e344a4f81e09e55861de2d, type: 3}
+    dropWeight: 1

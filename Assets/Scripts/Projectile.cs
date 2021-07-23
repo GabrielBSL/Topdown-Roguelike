@@ -10,12 +10,14 @@ public class Projectile : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private void Awake() => rb = GetComponent<Rigidbody2D>();
+    protected virtual void Awake() => rb = GetComponent<Rigidbody2D>();
     public void Redirect() => rb.velocity = transform.up * speed;
     
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        print(other.name);
+
         if (other.CompareTag("Enemy"))
             other.GetComponent<Enemy>().ReceiveHit(damage);
         
